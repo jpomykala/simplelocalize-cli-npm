@@ -1,8 +1,6 @@
 # SimpleLocalize CLI via npm (work in progress)
 
-The main goal of this project is to give fronted developers
-an easier way to use [SimpleLocalize CLI](https://github.com/simplelocalize/simplelocalize-cli)
-in their workflows. 
+The main goal of this project is to give frontend developers an easier way to use the [SimpleLocalize CLI](https://github.com/simplelocalize/simplelocalize-cli) in their workflows.
 
 ## Installation
 
@@ -10,16 +8,13 @@ in their workflows.
 npm install @simplelocalize/cli@1.0.8
 ```
 
-After installing the package, it should automatically choose the right binary for 
-your system and install it into `node_modules/.bin` directory, to make it available for your
-scripts in `package.json`.
+After installing the package, it should automatically choose the right binary for your system, [download it](https://github.com/simplelocalize/simplelocalize-cli/releases), and install it into the `node_modules/.bin` directory, making it available for your scripts in `package.json`.
 
-> The work on this package is in progress, and at time of writing this documentation, the plugin installs the newest version of the CLI, which is 2.8.0
+> The work on this package is in progress, and at the time of writing this documentation, the plugin installs the newest version of the CLI, which is 2.8.0.
 
 ## Usage
 
-Package SimpleLocalize CLI in your project and makes it available in `package.json` scripts.
-
+After successfully installing the SimpleLocalize CLI in your project, you should be able to use it in the `package.json` scripts to build a workflow of your choice.
 
 ```
 {
