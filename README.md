@@ -34,3 +34,7 @@ After successfully installing the SimpleLocalize CLI in your project, you should
 ```
 
 Learn more about [SimpleLocalize CLI commands](https://github.com/simplelocalize/simplelocalize-cli)
+
+## System installaton
+
+To install the CLI globally in your system please follow the instructions here: https://simplelocalize.io/docs/cli/get-started/
